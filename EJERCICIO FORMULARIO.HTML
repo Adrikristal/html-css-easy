@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders Form</title>
+</head>
+<body>
+    <h1>Make your order</h1>
+    <h2>Please, fill this form:</h2>
+<form action="pedido.php" method="post">
+    <input placeholder="Your name" type="text" name="" id="Your name">
+    <br><br>
+    <input placeholder="Your email" type="email" name="" id="Your email">
+    <br><br>
+    <textarea name="" id="" cols="30" rows="10">Write the address for your order</textarea>
+    <br><br>
+    <h3>Include salad starter?</h3>
+    <input type="radio" name="ensalada" value="Yes"> Yes, include it!
+    <br>
+    <input type="radio" name="ensalada" value="No"> No, thanks!
+    <p>
+        Choose your main course
+    </p>
+        <select>
+           <option value="Grilled Chicken with Fresh Cherry Salsa">Grilled Chicken with Fresh Cherry Salsa</option>
+           <option value="Bombay Grilled Chutney Sandwich">Bombay Grilled Chutney Sandwich</option>
+           <option value="Persian Chicken Joojeh Kebabs">Persian Chicken Joojeh Kebabs</option>
+           <option value="Spicy Pork Vindaloo">Spicy Pork Vindaloo</option>
+           <option value="Bombay Sloppy Joes (Kheema Pav)">Bombay Sloppy Joes (Kheema Pav)</option>
+
+        </select>
+    <br><br>
+        <input type="checkbox" name="tarjeta" id="Tarjeta"> Pay with credit card
+    <br><br>
+    <input type="submit" value="Make order">
+</form>
+</body>
+</html>
