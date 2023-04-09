@@ -1,0 +1,12 @@
+/* Regla CSS */
+h1 {
+    /*Declaracion*/
+    color: blue;
+    text-align: center;
+}
+h2 {
+    color: green;
+}
+p {
+    color: gray;
+}
