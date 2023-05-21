@@ -3,10 +3,16 @@ h1 {
     /*Declaracion*/
     color: blue;
     text-align: center;
+    width: 80%;
 }
 h2 {
     color: green;
 }
 p {
     color: gray;
+    font-size: 1em;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 25px;
+    text-align: justify;
 }
